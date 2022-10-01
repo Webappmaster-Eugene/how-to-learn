@@ -5,10 +5,4 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  transition: opacity 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-
-}
-
-.resources__link:hover{
-  opacity: 70%;
 }
