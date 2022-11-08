@@ -1,6 +1,17 @@
 
 .table__cell{
   width: 250px;
-  margin-bottom: 60px;
+  margin: 0 auto 60px auto;
+}
 
+@media screen and (max-width:500px){
+  .table__cell{
+    margin: 0 auto 40px auto;
+  }
+}
+
+@media screen and (max-width:370px){
+  .table__cell{
+    margin: 0 auto 20px auto;
+  }
 }

@@ -4,10 +4,26 @@
   margin-top: 0;
   padding-top: 0;
   flex-direction: column;
-  width: 175px;
+  max-width: 175px;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
+}
 
+@media screen and (max-width: 661px) {
+  .two-columns__brief{
+    text-align: left;
+    font-size: 34px;
+    font-weight: 600;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  .two-columns__brief{
+    font-size: 24px;
+    font-weight: 500;
+  }
 }

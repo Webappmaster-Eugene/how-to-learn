@@ -5,4 +5,20 @@
   font-weight: normal;
   text-align: center;
   z-index: 2;
+  padding: 10px 18px 5px 18px;
+  color: white;
+  -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1096px){
+  .feynman__subtitle{
+    line-height: 31px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    z-index: 6;
+    font-size: 28px;
+    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+    display: none;
+  }
 }

@@ -1,0 +1,28 @@
+.header__left-column{
+  max-width: 50%;
+  gap: 90px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 48px 64px 22px 64px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+@media screen and (max-width: 734px){
+  .header__left-column{
+    max-width: 100%;
+    justify-content: flex-end;
+    padding: 48px 44px 22px 44px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 404px){
+  .header__left-column{
+    max-width: 100%;
+    justify-content: flex-end;
+    padding: 48px 18px 22px 18px;
+    gap: 30px;
+  }
+}

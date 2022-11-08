@@ -1,6 +1,23 @@
 
 .video{
-  margin-top: 100px;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -20px;
+  padding: 0 48px 20px 48px;
+  z-index: 5;
+}
 
+@media screen and (max-width: 670px){
+  .video{
+    margin-top: 110px;
+    padding: 0 28px 20px 28px;
+  }
+}
 
+@media screen and (max-width: 470px){
+  .video{
+    margin-top: 90px;
+    padding: 0 18px 20px 18px;
+  }
 }

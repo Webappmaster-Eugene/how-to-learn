@@ -1,7 +1,7 @@
 
 .link-style{
-text-decoration: none;
-transition: opacity 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  text-decoration: none;
+  transition: opacity 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
 .link-style:hover{

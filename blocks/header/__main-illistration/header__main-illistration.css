@@ -8,3 +8,39 @@
   background-position: center;
   background-size: cover;
 }
+
+@media screen and (max-width: 1279px){
+  .header__main-illistration{
+    max-width: 695px;
+    max-height: 568px;
+  }
+}
+
+@media screen and (max-width: 1124px){
+  .header__main-illistration{
+    max-width: 595px;
+    max-height: 500px;
+  }
+}
+
+@media screen and (max-width: 970px){
+  .header__main-illistration{
+    max-width: 495px;
+    max-height: 450px;
+  }
+}
+
+@media screen and (max-width: 508px){
+  .header__main-illistration{
+    max-width: 430px;
+    max-height: 370px;
+  }
+}
+
+@media screen and (max-width: 404px){
+  .header__main-illistration{
+    max-width: 330px;
+    max-height: 280px;
+  }
+}
+

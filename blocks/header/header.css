@@ -1,12 +1,24 @@
 .header {
-  min-height: 756px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
+  height: 756px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #f2f2f2;
   position: relative;
   overflow: hidden;
+  max-width: 1280px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 734px){
+  .header{
+    height: 556px;
+  }
+}
+
+@media screen and (max-width: 404px){
+  .header{
+    height: 456px;
+  }
 }
